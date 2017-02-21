@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
-[grayscale]: ./examples/grayscale.jpg "Grayscale"
+[gray]: ./examples/grayscale.jpg "Grayscale"
 [edges]: ./examples/edges.jpg "Detected Edges"
 [masked_region]: ./examples/masked_region.jpg "Masked Region"
 [lane_broken]: ./examples/lane_broken.jpg "Lines detected using Hough Transform"
@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 My pipeline consisted of 7 steps.  
 
 1- The firststep was to convert the images to grayscale to make it possible to perfrom edge detection
-![alt text][grayscale]
+![alt text][gray]
 
 2- I applued blur function to smooth image and minimize the noise for edge detection
 
