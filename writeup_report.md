@@ -42,7 +42,7 @@ My pipeline consisted of 7 steps.
 
 6- I separated the lines found into left and right based on their slope. negative slope for right lane divider and positive slope for left.  
 
-7- In order to draw a single line on the left and right lanes, for each set of lines (left and right), a straight line (first order polynomial) is fitted. For this, from each line a set of points were generated proportianal to its length. Then, a line is fitted to all lines. 
+7- In order to draw a single line on the left and right lanes, for each set of lines (left and right), a straight line (first order polynomial) is fitted. For this, from each line a set of points were generated proportianal to its length. Then, a line is fitted to the set of points. 
 ![alt text][lane_detected]
 
 
