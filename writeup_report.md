@@ -49,9 +49,9 @@ My pipeline consisted of 7 steps.
 ###2. Identify potential shortcomings with your current pipeline
 
 Potential shortcoming are as follows:
-- The masked region is currently defined manualy. This should be calibrated for each camera and if the perspective changes the masked region will not be effective anymore.  
+- The masked region is currently defined manually. This should be calibrated for each camera and if the perspective changes the masked region will not be effective anymore.  
 - The final line fitted is a straight line. If there is a curve in the road the lane markings will not be straight anymore. Therefore, the straight line will not be a good representation of the road lanes. Additionally, checking the slope of the lines in the image will not be a good indicator for left and right lanes.   
-- The edge detection algrotihm is calibrated for this lighting condition. If the lighting changes (day and night, sunny vs cloudy, shadow of other objects) the edge detection might not work properly. 
+- The edge detection algorithm is calibrated for this lighting condition. If the lighting changes (day and night, sunny vs cloudy, shadow of other objects) the edge detection might not work properly. 
 
 
 ###3. Suggest possible improvements to your pipeline
